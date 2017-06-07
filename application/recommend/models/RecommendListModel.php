@@ -5,7 +5,7 @@
 namespace app\recommend\models;
 
 class RecommendListModel extends BaseModel{
-    public function transposition(RecommendListModel $fromModel, RecommendListModel $toModel){
+    public function transposition(RecommendModel $fromModel, RecommendModel $toModel){
         
     }
 }
